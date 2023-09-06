@@ -10,4 +10,4 @@ function injectNav(navHtml: string) {
     });
 }
 
-injectNav("./components/navBar.html");
+injectNav("/midterm/src/routes/navBar.html");
