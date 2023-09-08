@@ -10,34 +10,42 @@
   font-size: 62.5%;
 }
 
+.BrainTree {
+  width: 3rem;
+  height: 3rem;
+}
+
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
   display: none;
 }
 
 .container {
-  max-width: 1200px;
   width: 90%;
   margin: auto;
 }
 
 .navbar {
-  box-shadow: 0px 5px 10px 0px #aaa;
+  box-shadow:
+    0px 5px 10px 0px #aaa,
+    0px 0px 2px 2px #004477;
   position: fixed;
   width: 100%;
   background: #aedff7;
   color: #002855;
   opacity: 0.85;
   z-index: 100;
-  border-radius: 0.5rem;
-  border: 2mm ridge #004477;
 }
 
 .navbar-container {
+  padding-top: 0.5rem;
   display: flex;
   justify-content: space-between;
   height: 64px;
   align-items: center;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  width: 90%;
 }
 
 .menu-items {
@@ -47,6 +55,10 @@
 .logo {
   order: 1;
   font-size: 2.3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-d
 }
 
 .menu-items li {
